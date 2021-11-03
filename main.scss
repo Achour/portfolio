@@ -1,0 +1,26 @@
+// Then have Bootstrap do it's magic with these new values
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+
+$theme-colors: (
+  "primary":    $purple,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       #000000,
+  "cyan":       $cyan,
+  "red":        $red,
+  "green":      $green,
+  "teal":       $teal,
+  "blue":       $blue,
+  "pink":       $pink
+
+);
+
+$border-radius: 32px;
+
+@import "node_modules/bootstrap/scss/bootstrap";
